@@ -1,0 +1,17 @@
+.logo-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-text-title {
+  font-size: 2rem;
+}
+
+.logo-text-description {
+}
+
