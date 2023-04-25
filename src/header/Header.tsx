@@ -13,7 +13,13 @@ export default function Header() {
           <div class={`${styles["logo-text-description"]} not-selectable`}>Les cadets de l'Aviation royale du Canada</div>
         </div>
       </div>
-      <nav></nav>
+      <nav class={styles["navbar"]}>
+        <div class={`${styles["nav-element"]}`}>ACCUEIL</div>
+        <div class={`${styles["nav-element"]}`}>INSCRIPTION</div>
+        <div class={`${styles["nav-element"]}`}>ACTIVITÉS</div>
+        <div class={`${styles["nav-element"]}`}>CADETS</div>
+        <div class={`${styles["nav-element"]}`}>NOUS REJOINDRE</div>
+      </nav>
     </header>
   );
 }

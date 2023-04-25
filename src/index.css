@@ -1,11 +1,11 @@
 :root {
-  --primary-dark: #271e2c;
-  --primary-less-dark: #3f3444;
-  --primary: #645872;
-  --primary-light: #837791;
-  --accent-orange: #d99838;
-  --accent-blue: #142289;
-  --accent-teal: rgb(95, 177, 186);
+  --primary-dark: 39, 30, 44;
+  --primary-less-dark: 63, 52, 68;
+  --primary: 100, 88, 114;
+  --primary-light: 131, 119, 145;
+  --accent-orange: 217, 153, 56;
+  --accent-blue: 20, 34, 137;
+  --accent-teal: 95, 177, 186;
 
 }
 
@@ -23,6 +23,10 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .bg-hive {

@@ -1,17 +1,18 @@
 .header {
   display: flex;
   height: 15vh;
-  border-bottom: var(--primary-light) solid 5px;
-  align-items: center;
+  border-bottom: rgb(var(--primary)) solid 5px;
   justify-content: center;
 }
 
 .logo {
   margin: 10px;
+  display: flex;
+  justify-items: center;
 }
 
 .logo-container {
-  max-width: 900px;
+  max-width: 1500px;
   display: flex;
   flex-direction: row;
 }
@@ -25,11 +26,29 @@
 
 .logo-text-title {
   font-weight: 900;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  border-bottom: rgb(var(--primary-light)) solid 1px;
 }
 
 .logo-text-description {
   text-align: left;
   font-weight: 900;
-  color: var(--primary-light);
+  color: rgb(var(--primary-light));
+}
+
+.navbar {
+  margin-left: 100px;
+  padding: 0px 10px;
+  color: #eee;
+  top: 100%;
+  transform: translateY(-100%);
+  height: fit-content;
+  position: relative;
+  background-color: rgba(var(--primary), 0.7);
+}
+
+.navbar .nav-element {
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 20px 5px;
 }
