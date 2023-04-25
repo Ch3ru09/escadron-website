@@ -1,4 +1,17 @@
+.header {
+  display: flex;
+  height: 15vh;
+  border-bottom: var(--primary-light) solid 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin: 10px;
+}
+
 .logo-container {
+  max-width: 900px;
   display: flex;
   flex-direction: row;
 }
@@ -6,12 +19,17 @@
 .logo-text-container {
   display: flex;
   flex-direction: column;
+  color: #eee;
+  justify-content: center;
 }
 
 .logo-text-title {
-  font-size: 2rem;
+  font-weight: 900;
+  font-size: 2.5rem;
 }
 
 .logo-text-description {
+  text-align: left;
+  font-weight: 900;
+  color: var(--primary-light);
 }
-
