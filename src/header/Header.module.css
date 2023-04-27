@@ -36,19 +36,37 @@
   color: rgb(var(--primary-light));
 }
 
+.right-side-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.cadets-description {
+  text-align: right;
+  color: #eee;
+  font-size: 0.75rem;
+}
+
 .navbar {
   margin-left: 100px;
-  padding: 0px 10px;
+  padding: 0px 4px;
   color: #eee;
-  top: 100%;
-  transform: translateY(-100%);
   height: fit-content;
   position: relative;
   background-color: rgba(var(--primary), 0.7);
 }
 
-.navbar .nav-element {
+.nav-element {
   display: inline-block;
   vertical-align: bottom;
-  margin: 20px 5px;
+  margin: 7px 3px;
+  padding: 8px 8px;
+  outline: none;
+}
+
+.nav-element:hover,
+.nav-element:focus {
+  background-color: rgb(var(--accent-teal));
+  cursor: pointer;
 }
