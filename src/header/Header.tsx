@@ -6,7 +6,7 @@ export default function Header() {
   const pages = ["accueil", "inscription", "activités", "cadets", "nous rejoindre"];
 
   return (
-    <header class={`bg-hive ${styles["header"]}`}>
+    <header class={`bg-clouds ${styles["header"]}`}>
       <div class={`${styles["logo-container"]}`}>
         <div class={`${styles["logo"]} not-selectable`}>
           <img src={logoSource} alt="" />

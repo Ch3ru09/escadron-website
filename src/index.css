@@ -6,7 +6,7 @@
   --accent-orange: 217, 153, 56;
   --accent-blue: 20, 34, 137;
   --accent-teal: 95, 177, 186;
-
+  --white: #eee;
 }
 
 body {
@@ -29,7 +29,7 @@ ul {
   list-style-type: none;
 }
 
-.bg-hive {
+.bg-clouds {
   --s: 50px;
   /* control the size */
   --c1: #3f3444;
@@ -46,19 +46,18 @@ ul {
   background-size: var(--s) var(--s);
 }
 
-/* 
-  alt bg: 
+.bg-pattern {
   --s: 50px;
-  --c: #271e2c;
+  /* need to choose colors --c1 and --c2 */
   --_s: calc(2*var(--s)) calc(2*var(--s));
   --_g: 35.36% 35.36% at;
-  --_c: #0000 66%,#3f3444 68% 70%,#0000 72%;
-  background: 
-    radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s), 
-    radial-gradient(var(--_g) 0 75%,var(--_c)) var(--s) var(--s)/var(--_s), 
-    radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s), 
-    radial-gradient(var(--_g) 0 75%,var(--_c)) 0 0/var(--_s), 
-    repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s), 
-    radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);
+  --_c: #0000 66%, var(--c2) 68% 70%, #0000 72%;
+  background:
+    radial-gradient(var(--_g) 100% 25%, var(--_c)) var(--s) var(--s)/var(--_s),
+    radial-gradient(var(--_g) 0 75%, var(--_c)) var(--s) var(--s)/var(--_s),
+    radial-gradient(var(--_g) 100% 25%, var(--_c)) 0 0/var(--_s),
+    radial-gradient(var(--_g) 0 75%, var(--_c)) 0 0/var(--_s),
+    repeating-conic-gradient(var(--c1) 0 25%, #0000 0 50%) 0 0/var(--_s),
+    radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c1);
   background-attachment: fixed;
- */
+}

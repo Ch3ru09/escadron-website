@@ -1,0 +1,10 @@
+.carousel {
+  width: 80vw;
+}
+
+.carousel-item {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  counter-increment: gallery-cell;
+}
