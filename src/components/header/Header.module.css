@@ -58,6 +58,8 @@
 }
 
 .nav-element {
+  color: #eee;
+  text-decoration: none;
   display: inline-block;
   vertical-align: bottom;
   margin: 7px 3px;

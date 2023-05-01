@@ -1,5 +1,4 @@
 import styles from "./Header.module.css";
-import logoSource from "../assets/logo.png";
 import { For } from "solid-js";
 
 export default function Header() {
@@ -9,7 +8,7 @@ export default function Header() {
     <header class={`bg-clouds ${styles["header"]}`}>
       <div class={`${styles["logo-container"]}`}>
         <div class={`${styles["logo"]} not-selectable`}>
-          <img src={logoSource} alt="" />
+          <img src="/logo.png" alt="" />
         </div>
         <div class={styles["logo-text-container"]}>
           <div class={`${styles["logo-text-title"]} not-selectable`}>Escadron 811 La Prairie</div>
@@ -30,9 +29,9 @@ export default function Header() {
 
 function NavElement({ name }: NavProps) {
   return (
-    <div class={`${styles["nav-element"]}`} tabIndex={0}>
+    <a href={name == "accueil" ? "/" : name} class={`${styles["nav-element"]}`} tabIndex={0}>
       {name.toUpperCase()}
-    </div>
+    </a>
   );
 }
 

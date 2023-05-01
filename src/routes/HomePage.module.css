@@ -1,0 +1,23 @@
+.carousel {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+.carousel-item {
+  box-sizing: border-box;
+  width: 66%;
+  aspect-ratio: 13/6;
+  margin-right: 10px;
+  object-fit: cover;
+  counter-increment: carousel-item;
+}
+
+.description {
+  margin: 5% 10%;
+}
+
+.calendar {
+  width: 60%;
+  aspect-ratio: 16/9;
+}
