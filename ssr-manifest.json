@@ -52,14 +52,14 @@
   "src/root.tsx": [
   ],
   "src/routes/HomePage.module.css?used": [
-    "/my-project/assets/index-461438ee.js",
-    "/my-project/assets/index-237ea1fd.css"
+    "/escadron-website/assets/index-4f75f17e.js",
+    "/escadron-website/assets/index-237ea1fd.css"
   ],
   "src/routes/index.tsx": [
-    "/my-project/assets/index-461438ee.js",
-    "/my-project/assets/index-237ea1fd.css"
+    "/escadron-website/assets/index-4f75f17e.js",
+    "/escadron-website/assets/index-237ea1fd.css"
   ],
   "src/routes/inscription/(Inscription).tsx": [
-    "/my-project/assets/(Inscription)-84dd34e5.js"
+    "/escadron-website/assets/(Inscription)-84dd34e5.js"
   ]
 }
