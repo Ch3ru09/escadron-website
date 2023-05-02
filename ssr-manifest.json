@@ -52,11 +52,11 @@
   "src/root.tsx": [
   ],
   "src/routes/HomePage.module.css?used": [
-    "/escadron-website/assets/index-4f75f17e.js",
+    "/escadron-website/assets/index-0567d3e2.js",
     "/escadron-website/assets/index-237ea1fd.css"
   ],
   "src/routes/index.tsx": [
-    "/escadron-website/assets/index-4f75f17e.js",
+    "/escadron-website/assets/index-0567d3e2.js",
     "/escadron-website/assets/index-237ea1fd.css"
   ],
   "src/routes/inscription/(Inscription).tsx": [
