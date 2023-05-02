@@ -9,7 +9,7 @@
     "jsx": "preserve",
     "strict": true,
     "types": ["solid-start/env"],
-    "baseUrl": "./",
+    "baseUrl": "/escadron-website/",
     "paths": {
       "~/*": ["./src/*"]
     }

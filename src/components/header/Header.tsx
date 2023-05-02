@@ -29,7 +29,7 @@ export default function Header() {
 
 function NavElement({ name }: NavProps) {
   return (
-    <a href={name == "accueil" ? "/" : name} class={`${styles["nav-element"]}`} tabIndex={0}>
+    <a href={name == "accueil" ? "" : name} class={`${styles["nav-element"]}`} tabIndex={0}>
       {name.toUpperCase()}
     </a>
   );
