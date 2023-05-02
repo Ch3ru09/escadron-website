@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 :root {
   --primary-dark: 39, 30, 44;
   --primary-less-dark: 63, 52, 68;
@@ -6,6 +8,7 @@
   --accent-orange: 217, 153, 56;
   --accent-blue: 20, 34, 137;
   --accent-teal: 95, 177, 186;
+  --accent-red: 226 53 47;
   --white: #eee;
 }
 

@@ -65,10 +65,12 @@
   margin: 7px 3px;
   padding: 8px 8px;
   outline: none;
+  transition: all 100ms ease;
 }
 
 .nav-element:hover,
 .nav-element:focus {
   background-color: rgb(var(--accent-teal));
   cursor: pointer;
+  transition: all 100ms ease;
 }
