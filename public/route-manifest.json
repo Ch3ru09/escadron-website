@@ -1,0 +1,37 @@
+{
+  "/": [
+    {
+      "type": "script",
+      "href": "/assets/index-80d7343d.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/entry-client-78b68dbd.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/entry-client-9e641832.css"
+    },
+    {
+      "type": "style",
+      "href": "/assets/index-237ea1fd.css"
+    }
+  ],
+  "/inscription/(Inscription)": [
+    {
+      "type": "script",
+      "href": "/assets/(Inscription)-84dd34e5.js"
+    }
+  ],
+  "entry-client": [
+    {
+      "type": "script",
+      "href": "/assets/entry-client-78b68dbd.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/entry-client-9e641832.css"
+    }
+  ],
+  "index.html": []
+}

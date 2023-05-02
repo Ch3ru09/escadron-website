@@ -1,0 +1,38 @@
+{
+  "src/entry-client.css": {
+    "file": "assets/entry-client-9e641832.css",
+    "src": "src/entry-client.css"
+  },
+  "src/entry-client.tsx": {
+    "css": [
+      "assets/entry-client-9e641832.css"
+    ],
+    "dynamicImports": [
+      "src/routes/index.tsx",
+      "src/routes/inscription/(Inscription).tsx"
+    ],
+    "file": "assets/entry-client-78b68dbd.js",
+    "isEntry": true,
+    "src": "src/entry-client.tsx"
+  },
+  "src/routes/index.css": {
+    "file": "assets/index-237ea1fd.css",
+    "src": "src/routes/index.css"
+  },
+  "src/routes/index.tsx": {
+    "css": [
+      "assets/index-237ea1fd.css"
+    ],
+    "file": "assets/index-80d7343d.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/index.tsx"
+  },
+  "src/routes/inscription/(Inscription).tsx": {
+    "file": "assets/(Inscription)-84dd34e5.js",
+    "isDynamicEntry": true,
+    "src": "src/routes/inscription/(Inscription).tsx"
+  }
+}
