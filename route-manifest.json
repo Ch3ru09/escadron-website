@@ -2,35 +2,35 @@
   "/": [
     {
       "type": "script",
-      "href": "/assets/index-80d7343d.js"
+      "href": "/my-project/assets/index-461438ee.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-78b68dbd.js"
+      "href": "/my-project/assets/entry-client-ff4a06b6.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-9e641832.css"
+      "href": "/my-project/assets/entry-client-9e641832.css"
     },
     {
       "type": "style",
-      "href": "/assets/index-237ea1fd.css"
+      "href": "/my-project/assets/index-237ea1fd.css"
     }
   ],
   "/inscription/(Inscription)": [
     {
       "type": "script",
-      "href": "/assets/(Inscription)-84dd34e5.js"
+      "href": "/my-project/assets/(Inscription)-84dd34e5.js"
     }
   ],
   "entry-client": [
     {
       "type": "script",
-      "href": "/assets/entry-client-78b68dbd.js"
+      "href": "/my-project/assets/entry-client-ff4a06b6.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-9e641832.css"
+      "href": "/my-project/assets/entry-client-9e641832.css"
     }
   ],
   "index.html": []

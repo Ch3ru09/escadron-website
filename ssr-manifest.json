@@ -19,23 +19,23 @@
   ],
   "node_modules/.pnpm/solid-js@1.7.2/node_modules/solid-js/web/dist/web.js": [
   ],
-  "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-node@0.2.19_vite@4.1.4/node_modules/solid-start/entry-client/StartClient.tsx": [
+  "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-static@0.2.26_vite@4.1.4/node_modules/solid-start/entry-client/StartClient.tsx": [
   ],
-  "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-node@0.2.19_vite@4.1.4/node_modules/solid-start/entry-client/mount.tsx": [
+  "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-static@0.2.26_vite@4.1.4/node_modules/solid-start/entry-client/mount.tsx": [
   ],
-  "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-node@0.2.19_vite@4.1.4/node_modules/solid-start/error-boundary/ErrorBoundary.tsx": [
+  "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-static@0.2.26_vite@4.1.4/node_modules/solid-start/error-boundary/ErrorBoundary.tsx": [
   ],
-  "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-node@0.2.19_vite@4.1.4/node_modules/solid-start/root/Document.tsx": [
+  "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-static@0.2.26_vite@4.1.4/node_modules/solid-start/root/Document.tsx": [
   ],
-  "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-node@0.2.19_vite@4.1.4/node_modules/solid-start/root/FileRoutes.tsx": [
+  "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-static@0.2.26_vite@4.1.4/node_modules/solid-start/root/FileRoutes.tsx": [
   ],
-  "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-node@0.2.19_vite@4.1.4/node_modules/solid-start/root/Scripts.tsx": [
+  "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-static@0.2.26_vite@4.1.4/node_modules/solid-start/root/Scripts.tsx": [
   ],
-  "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-node@0.2.19_vite@4.1.4/node_modules/solid-start/router.tsx": [
+  "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-static@0.2.26_vite@4.1.4/node_modules/solid-start/router.tsx": [
   ],
-  "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-node@0.2.19_vite@4.1.4/node_modules/solid-start/server/ServerContext.tsx": [
+  "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-static@0.2.26_vite@4.1.4/node_modules/solid-start/server/ServerContext.tsx": [
   ],
-  "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-node@0.2.19_vite@4.1.4/node_modules/solid-start/server/types.tsx": [
+  "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-static@0.2.26_vite@4.1.4/node_modules/solid-start/server/types.tsx": [
   ],
   "src/components/header/Header.module.css?used": [
   ],
@@ -52,14 +52,14 @@
   "src/root.tsx": [
   ],
   "src/routes/HomePage.module.css?used": [
-    "/assets/index-80d7343d.js",
-    "/assets/index-237ea1fd.css"
+    "/my-project/assets/index-461438ee.js",
+    "/my-project/assets/index-237ea1fd.css"
   ],
   "src/routes/index.tsx": [
-    "/assets/index-80d7343d.js",
-    "/assets/index-237ea1fd.css"
+    "/my-project/assets/index-461438ee.js",
+    "/my-project/assets/index-237ea1fd.css"
   ],
   "src/routes/inscription/(Inscription).tsx": [
-    "/assets/(Inscription)-84dd34e5.js"
+    "/my-project/assets/(Inscription)-84dd34e5.js"
   ]
 }
