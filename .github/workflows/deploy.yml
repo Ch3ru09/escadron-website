@@ -41,7 +41,7 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: pnpm install --legacy-peer-deps
+        run: pnpm install
 
       - name: Build project
         run: pnpm run build
