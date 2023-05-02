@@ -12,7 +12,10 @@ dependencies:
     version: 1.7.2
   solid-start:
     specifier: ^0.2.26
-    version: 0.2.26(@solidjs/meta@0.28.2)(@solidjs/router@0.8.2)(solid-js@1.7.2)(solid-start-static@0.2.26)(vite@4.1.4)
+    version: 0.2.26(@solidjs/meta@0.28.2)(@solidjs/router@0.8.2)(solid-js@1.7.2)(solid-start-node@0.2.26)(solid-start-static@0.2.26)(vite@4.1.4)
+  solid-start-node:
+    specifier: ^0.2.26
+    version: 0.2.26(solid-start@0.2.26)(undici@5.15.1)(vite@4.1.4)
   undici:
     specifier: ^5.15.1
     version: 5.15.1
@@ -2687,6 +2690,13 @@ packages:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
 
+  /polka@1.0.0-next.22:
+    resolution: {integrity: sha512-a7tsZy5gFbJr0aUltZS97xCkbPglXuD67AMvTyZX7BTDBH384FWf0ZQF6rPvdutSxnO1vUlXM2zSLf5tCKk5RA==}
+    engines: {node: '>=8'}
+    dependencies:
+      '@polka/url': 1.0.0-next.21
+      trouter: 3.2.1
+
   /postcss@8.4.21:
     resolution: {integrity: sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==}
     engines: {node: ^10 || ^12 || >=14}
@@ -2720,6 +2730,10 @@ packages:
     resolution: {integrity: sha512-knzmNAcuyxV+gQCufkYcvOqX/qIIfHLv0u5x79kRxuGojfYVky1f15TzZEu2Avte8QGepvUNTnLskf8E6X6Vyg==}
     dependencies:
       '@babel/runtime': 7.21.0
+
+  /regexparam@1.3.0:
+    resolution: {integrity: sha512-6IQpFBv6e5vz1QAqI+V4k8P2e/3gRrqfCJ9FI+O1FLQTO+Uz6RXZEZOPmTJ6hlGj7gkERzY5BRCv09whKP96/g==}
+    engines: {node: '>=6'}
 
   /regexpu-core@5.3.2:
     resolution: {integrity: sha512-RAM5FlZz+Lhmo7db9L298p2vHP5ZywrVXmVXpmAD9GuL5MPH6t9ROw1iA/wfHkQ76Qe7AaPF0nGuim96/IrQMQ==}
@@ -2865,6 +2879,27 @@ packages:
   /solid-ssr@1.7.1:
     resolution: {integrity: sha512-GiaDJ4GMNRbbCoCMthl9RFfc5Tk4uVtV6LAZRPavwQF1KQXmYG3fWT0i8c5EYY3Gf7y4+w+4WyID3MtaqzBtPA==}
 
+  /solid-start-node@0.2.26(solid-start@0.2.26)(undici@5.15.1)(vite@4.1.4):
+    resolution: {integrity: sha512-8vciTGoQV+lIlCUSVHJPazlaoKDRfBowDkPeBr/EZdmtbcMOKoJYf/APPQWFspylF+nhzunMf0+zJP90VtMEYg==}
+    peerDependencies:
+      solid-start: '*'
+      undici: ^5.8.0
+      vite: '*'
+    dependencies:
+      '@rollup/plugin-commonjs': 24.1.0(rollup@3.13.0)
+      '@rollup/plugin-json': 6.0.0(rollup@3.13.0)
+      '@rollup/plugin-node-resolve': 15.0.2(rollup@3.13.0)
+      compression: 1.7.4
+      polka: 1.0.0-next.22
+      rollup: 3.13.0
+      sirv: 2.0.3
+      solid-start: 0.2.26(@solidjs/meta@0.28.2)(@solidjs/router@0.8.2)(solid-js@1.7.2)(solid-start-node@0.2.26)(solid-start-static@0.2.26)(vite@4.1.4)
+      terser: 5.17.1
+      undici: 5.15.1
+      vite: 4.1.4(@types/node@18.11.18)
+    transitivePeerDependencies:
+      - supports-color
+
   /solid-start-static@0.2.26(solid-start@0.2.26)(undici@5.15.1)(vite@4.1.4):
     resolution: {integrity: sha512-lQj2sj2HUFxNLzUm8pTGX1D78usVad8RS4r5tGdJzeshgldNGqYN+vZS+cQSMnBrIQBV3ch8J1e3LPQx2IDtxA==}
     peerDependencies:
@@ -2878,11 +2913,11 @@ packages:
       rollup: 3.13.0
       sirv-cli: 2.0.2
       solid-ssr: 1.7.1
-      solid-start: 0.2.26(@solidjs/meta@0.28.2)(@solidjs/router@0.8.2)(solid-js@1.7.2)(solid-start-static@0.2.26)(vite@4.1.4)
+      solid-start: 0.2.26(@solidjs/meta@0.28.2)(@solidjs/router@0.8.2)(solid-js@1.7.2)(solid-start-node@0.2.26)(solid-start-static@0.2.26)(vite@4.1.4)
       undici: 5.15.1
       vite: 4.1.4(@types/node@18.11.18)
 
-  /solid-start@0.2.26(@solidjs/meta@0.28.2)(@solidjs/router@0.8.2)(solid-js@1.7.2)(solid-start-static@0.2.26)(vite@4.1.4):
+  /solid-start@0.2.26(@solidjs/meta@0.28.2)(@solidjs/router@0.8.2)(solid-js@1.7.2)(solid-start-node@0.2.26)(solid-start-static@0.2.26)(vite@4.1.4):
     resolution: {integrity: sha512-kne2HZlnSMzsirdnvNs1CsDqBl0L0uvKKt1t4de1CH7JIngyqoMcER97jTE0Ejr84KknANaKAdvJAzZcL7Ueng==}
     hasBin: true
     peerDependencies:
@@ -2945,6 +2980,7 @@ packages:
       set-cookie-parser: 2.6.0
       sirv: 2.0.3
       solid-js: 1.7.2
+      solid-start-node: 0.2.26(solid-start@0.2.26)(undici@5.15.1)(vite@4.1.4)
       solid-start-static: 0.2.26(solid-start@0.2.26)(undici@5.15.1)(vite@4.1.4)
       terser: 5.17.1
       undici: 5.15.1
@@ -3032,6 +3068,12 @@ packages:
   /totalist@3.0.1:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
     engines: {node: '>=6'}
+
+  /trouter@3.2.1:
+    resolution: {integrity: sha512-oY3CmIiEYOe1YMEzh++I67lrNOUldtCeuLL0vRPydvQLHZpSJ03B5dgDFlpFsiriMq6e//NDjjopjUzXOztHow==}
+    engines: {node: '>=6'}
+    dependencies:
+      regexparam: 1.3.0
 
   /tslib@2.5.0:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
