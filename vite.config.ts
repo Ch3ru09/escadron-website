@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 import staticAdapter from "solid-start-static";
 
 export default defineConfig({
-  base: "/my-project/",
+  base: "/escadron-website/",
   // insert your github project name between slashes above
   plugins: [solid({ adapter: staticAdapter() })],
 });
