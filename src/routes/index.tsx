@@ -1,4 +1,5 @@
 import styles from "./HomePage.module.css";
+import { useLocation } from "solid-start";
 
 export default function HomePage() {
   return (
@@ -12,18 +13,20 @@ export default function HomePage() {
 }
 
 function Carousel() {
+  const base: string = import.meta.env.BASE_URL;
+
   return (
     <div class={styles["carousel-container"]}>
       <div class={`${styles["carousel"]} js-flickity`} data-flickity-options='{ "wrapAround": true }'>
         {/* * I didn't use a for loop for this since it breaks the carousel css */}
-        <img src="/carousel/1.jpeg" class={styles["carousel-item"]} />
-        <img src="/carousel/2.jpeg" class={styles["carousel-item"]} />
-        <img src="/carousel/3.jpeg" class={styles["carousel-item"]} />
-        <img src="/carousel/4.jpeg" class={styles["carousel-item"]} />
-        <img src="/carousel/5.jpeg" class={styles["carousel-item"]} />
-        <img src="/carousel/6.jpeg" class={styles["carousel-item"]} />
-        <img src="/carousel/7.jpeg" class={styles["carousel-item"]} />
-        <img src="/carousel/8.jpeg" class={styles["carousel-item"]} />
+        <img src={base + "/carousel/1.jpeg"} class={styles["carousel-item"]} />
+        <img src={base + "/carousel/2.jpeg"} class={styles["carousel-item"]} />
+        <img src={base + "/carousel/3.jpeg"} class={styles["carousel-item"]} />
+        <img src={base + "/carousel/4.jpeg"} class={styles["carousel-item"]} />
+        <img src={base + "/carousel/5.jpeg"} class={styles["carousel-item"]} />
+        <img src={base + "/carousel/6.jpeg"} class={styles["carousel-item"]} />
+        <img src={base + "/carousel/7.jpeg"} class={styles["carousel-item"]} />
+        <img src={base + "/carousel/8.jpeg"} class={styles["carousel-item"]} />
       </div>
       <a href="/inscription" class={styles["inscription-button"]}>
         JE VEUX M'INSCRIRE
