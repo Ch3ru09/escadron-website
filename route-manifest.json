@@ -2,11 +2,11 @@
   "/": [
     {
       "type": "script",
-      "href": "/escadron-website/assets/index-0567d3e2.js"
+      "href": "/escadron-website/assets/index-e020688e.js"
     },
     {
       "type": "script",
-      "href": "/escadron-website/assets/entry-client-1ca2aec0.js"
+      "href": "/escadron-website/assets/entry-client-5b6dd4ca.js"
     },
     {
       "type": "style",
@@ -26,7 +26,7 @@
   "entry-client": [
     {
       "type": "script",
-      "href": "/escadron-website/assets/entry-client-1ca2aec0.js"
+      "href": "/escadron-website/assets/entry-client-5b6dd4ca.js"
     },
     {
       "type": "style",

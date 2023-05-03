@@ -11,7 +11,7 @@
       "src/routes/index.tsx",
       "src/routes/inscription/(Inscription).tsx"
     ],
-    "file": "assets/entry-client-1ca2aec0.js",
+    "file": "assets/entry-client-5b6dd4ca.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
@@ -23,7 +23,7 @@
     "css": [
       "assets/index-237ea1fd.css"
     ],
-    "file": "assets/index-0567d3e2.js",
+    "file": "assets/index-e020688e.js",
     "imports": [
       "src/entry-client.tsx"
     ],
