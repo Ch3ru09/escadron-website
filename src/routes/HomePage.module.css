@@ -3,7 +3,7 @@
 }
 
 .carousel {
-  width: calc(100%-10px*2);
+  width: 100%;
   box-sizing: border-box;
   margin-bottom: 50px;
   border: solid rgb(var(--primary)) 10px;
@@ -11,7 +11,7 @@
 
 .carousel-item {
   box-sizing: border-box;
-  width: 100%;
+  width: 80%;
   aspect-ratio: 13/6;
   margin-right: 10px;
   object-fit: cover;
@@ -24,8 +24,8 @@
   left: 0;
   margin: 5% 5%;
   padding: 1% 2%;
-  border: var(--white) solid 15px;
-  color: var(--white);
+  border: rgb(var(--white)) solid 15px;
+  color: rgb(var(--white));
   background-color: rgb(var(--accent-red));
   text-decoration: none;
   font-size: 1.5rem;

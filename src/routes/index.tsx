@@ -1,5 +1,6 @@
+import { For } from "solid-js";
 import styles from "./HomePage.module.css";
-import { useLocation } from "solid-start";
+import createCarousel from "../utils/createCarousel";
 
 export default function HomePage() {
   return (
@@ -13,20 +14,14 @@ export default function HomePage() {
 }
 
 function Carousel() {
+  const setCarousel = createCarousel();
+  const names = [1, 2, 3, 4, 5, 6, 7, 8];
   const base: string = import.meta.env.BASE_URL;
 
   return (
     <div class={styles["carousel-container"]}>
-      <div class={`${styles["carousel"]} js-flickity`} data-flickity-options='{ "wrapAround": true }'>
-        {/* * I didn't use a for loop for this since it breaks the carousel css */}
-        <img src={base + "/carousel/1.jpeg"} class={styles["carousel-item"]} />
-        <img src={base + "/carousel/2.jpeg"} class={styles["carousel-item"]} />
-        <img src={base + "/carousel/3.jpeg"} class={styles["carousel-item"]} />
-        <img src={base + "/carousel/4.jpeg"} class={styles["carousel-item"]} />
-        <img src={base + "/carousel/5.jpeg"} class={styles["carousel-item"]} />
-        <img src={base + "/carousel/6.jpeg"} class={styles["carousel-item"]} />
-        <img src={base + "/carousel/7.jpeg"} class={styles["carousel-item"]} />
-        <img src={base + "/carousel/8.jpeg"} class={styles["carousel-item"]} />
+      <div class={`${styles["carousel"]}`} ref={setCarousel}>
+        <For each={names}>{(name) => <img src={`${base}/carousel/${name}.jpeg`} class={styles["carousel-item"]} />}</For>
       </div>
       <a href="/inscription" class={styles["inscription-button"]}>
         JE VEUX M'INSCRIRE

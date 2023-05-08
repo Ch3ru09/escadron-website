@@ -3,7 +3,6 @@ import { Suspense } from "solid-js";
 import { Body, ErrorBoundary, FileRoutes, Head, Html, Link, Meta, Routes, Scripts, Title } from "solid-start";
 import Layout from "./components/layout/Layout";
 import "./root.css";
-import "../flickity/flickity.css";
 
 export default function Root() {
   const bgColor = ["var(--white)", "aliceblue"];
@@ -29,7 +28,6 @@ export default function Root() {
           </ErrorBoundary>
         </Suspense>
         <Scripts />
-        <script src="../flickity/flickity.pkgd.min.js"></script>
       </Body>
     </Html>
   );

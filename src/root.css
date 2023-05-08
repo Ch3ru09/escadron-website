@@ -9,7 +9,7 @@
   --accent-blue: 20, 34, 137;
   --accent-teal: 95, 177, 186;
   --accent-red: 226 53 47;
-  --white: #eee;
+  --white: 238, 238, 238;
 }
 
 body {
@@ -47,6 +47,8 @@ ul {
     radial-gradient(100% 100% at 0 100%, #0000, #0008 4%, var(--_g), var(--c1) 96%) var(--c1);
 
   background-size: var(--s) var(--s);
+
+  --image-ratio: 13/6;
 }
 
 .bg-pattern {

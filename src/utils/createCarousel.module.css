@@ -1,0 +1,44 @@
+.carousel {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.carousel-item {}
+
+.button {
+  position: absolute;
+  height: 15%;
+  aspect-ratio: 1;
+  border-radius: 9999px;
+  top: 50%;
+  translate: 0 -50%;
+  background-color: rgba(var(--white), .3);
+  transition: transform 250ms ease;
+}
+
+.carousel>.carousel-item {
+  transform: translate(10%);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button-left {
+  left: 10px;
+}
+
+.button-left:hover {
+  transform: translateX(10px);
+}
+
+.button-right {
+  right: 10px;
+}
+
+.button-right:hover {
+  transform: translateX(-10px);
+}

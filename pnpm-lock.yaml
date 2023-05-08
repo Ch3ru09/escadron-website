@@ -21,6 +21,9 @@ dependencies:
     version: 5.15.1
 
 devDependencies:
+  '@types/flickity':
+    specifier: ^2.2.7
+    version: 2.2.7
   '@types/node':
     specifier: ^18.11.18
     version: 18.11.18
@@ -1726,6 +1729,10 @@ packages:
 
   /@types/estree@1.0.1:
     resolution: {integrity: sha512-LG4opVs2ANWZ1TJoKc937iMmNstM/d0ae1vNbnBvBhqCSezgVUOzcLCqbI5elV8Vy6WKwKjaqR+zO9VKirBBCA==}
+
+  /@types/flickity@2.2.7:
+    resolution: {integrity: sha512-Vsf/n2Yab2ytHXBhgs+XJi7nXEOnspUdApe7WbnKGrBAZvSpz8+pjxpeKfFWPrFeDrgLRJr230DHb4YyIw4lbA==}
+    dev: true
 
   /@types/node@18.11.18:
     resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
