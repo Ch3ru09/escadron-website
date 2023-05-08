@@ -1,8 +1,6 @@
 {
   "\u0000vite/preload-helper": [
   ],
-  "flickity/flickity.css": [
-  ],
   "node_modules/.pnpm/@solidjs+meta@0.28.2_solid-js@1.7.2/node_modules/@solidjs/meta/dist/index.jsx": [
   ],
   "node_modules/.pnpm/@solidjs+router@0.8.2_solid-js@1.7.2/node_modules/@solidjs/router/dist/components.jsx": [
@@ -52,14 +50,22 @@
   "src/root.tsx": [
   ],
   "src/routes/HomePage.module.css?used": [
-    "/escadron-website/assets/index-e020688e.js",
-    "/escadron-website/assets/index-237ea1fd.css"
+    "/escadron-website/assets/index-777a0214.js",
+    "/escadron-website/assets/index-316ffbe4.css"
   ],
   "src/routes/index.tsx": [
-    "/escadron-website/assets/index-e020688e.js",
-    "/escadron-website/assets/index-237ea1fd.css"
+    "/escadron-website/assets/index-777a0214.js",
+    "/escadron-website/assets/index-316ffbe4.css"
   ],
   "src/routes/inscription/(Inscription).tsx": [
     "/escadron-website/assets/(Inscription)-84dd34e5.js"
+  ],
+  "src/utils/createCarousel.module.css?used": [
+    "/escadron-website/assets/index-777a0214.js",
+    "/escadron-website/assets/index-316ffbe4.css"
+  ],
+  "src/utils/createCarousel.tsx": [
+    "/escadron-website/assets/index-777a0214.js",
+    "/escadron-website/assets/index-316ffbe4.css"
   ]
 }
