@@ -21,7 +21,7 @@ function Carousel() {
   return (
     <div class={styles["carousel-container"]}>
       <div class={`${styles["carousel"]}`} ref={setCarousel}>
-        <For each={names}>{(name) => <img src={`${base}/carousel/${name}.jpeg`} class={styles["carousel-item"]} />}</For>
+        <For each={names}>{(name, index) => <img src={`${base}/carousel/${name}.jpeg`} class={styles["carousel-item"]} style={`order: var(--order); --order: ${(index() + 1) % names.length}`} />}</For>
       </div>
       <a href="/inscription" class={styles["inscription-button"]}>
         JE VEUX M'INSCRIRE

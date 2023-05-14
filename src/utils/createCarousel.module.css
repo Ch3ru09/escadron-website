@@ -1,12 +1,18 @@
 .carousel {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-items-container {
   position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  overflow: hidden;
 }
 
-.carousel-item {}
+.carousel-item {
+  transition: transform 1000ms ease;
+}
 
 .button {
   position: absolute;
@@ -17,10 +23,6 @@
   translate: 0 -50%;
   background-color: rgba(var(--white), .3);
   transition: transform 250ms ease;
-}
-
-.carousel>.carousel-item {
-  transform: translate(10%);
 }
 
 .button:hover {

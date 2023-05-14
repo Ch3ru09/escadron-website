@@ -12,29 +12,29 @@ import styles from "./createCarousel.module.css";
 export default function createCarousel(): Setter<Element> {
   const [carousel, setCarousel] = createSignal<Element | undefined>();
   const [count, setCount] = createSignal(0);
-  const [items, setItems] = createSignal<Array<Element>>([]);
+  const [pWidth, setPWidth] = createSignal<number>();
 
   createEffect(() => {
-    const length = items().length == 0 ? 1 : items().length;
-    setCount((current) => (current + 8) % length);
-
-    if (items().length < 1) return;
-    for (let x of carousel()!.children) {
-      if (!x.classList.contains(styles["carousel-item"])) continue;
-
-      (x as HTMLElement).style.setProperty("--delta", `${count()}`);
-    }
+    carousel()!.firstChild?.style.setProperty("transform", `translate: `);
   });
 
   createEffect(() => {
     carousel()!.classList.add(styles.carousel);
+    const width = carousel()!.firstChild?.clientWidth;
+    const margin = Number(window.getComputedStyle(carousel()!.firstChild as Element).marginRight.split("px")[0]);
     for (let x of carousel()!.children) {
       x.classList.add(styles["carousel-item"]);
     }
+    setPWidth(carousel()!.clientWidth);
 
-    setItems(() => [...carousel()!.children]);
-    carousel()!.prepend(createButtons("left", setCount, -1));
-    carousel()!.append(createButtons("right", setCount, 1));
+    // setItems(() => [...carousel()!.children]);
+    const mod = (pWidth()! - width) / 2;
+
+    carousel()!.innerHTML = `<div class=${styles["carousel-items-container"]}>` + carousel()!.innerHTML + `</div>`;
+
+    carousel()!.firstChild?.style.setProperty("translate", `-${width - mod + margin}px`);
+    carousel()!.append(createButtons("left", setCount, 1));
+    carousel()!.append(createButtons("right", setCount, -1));
   });
 
   return setCarousel;
