@@ -50,22 +50,22 @@
   "src/root.tsx": [
   ],
   "src/routes/HomePage.module.css?used": [
-    "/escadron-website/assets/index-777a0214.js",
-    "/escadron-website/assets/index-316ffbe4.css"
+    "/escadron-website/assets/index-2e38d2e8.js",
+    "/escadron-website/assets/index-aabedad4.css"
   ],
   "src/routes/index.tsx": [
-    "/escadron-website/assets/index-777a0214.js",
-    "/escadron-website/assets/index-316ffbe4.css"
+    "/escadron-website/assets/index-2e38d2e8.js",
+    "/escadron-website/assets/index-aabedad4.css"
   ],
   "src/routes/inscription/(Inscription).tsx": [
     "/escadron-website/assets/(Inscription)-84dd34e5.js"
   ],
   "src/utils/createCarousel.module.css?used": [
-    "/escadron-website/assets/index-777a0214.js",
-    "/escadron-website/assets/index-316ffbe4.css"
+    "/escadron-website/assets/index-2e38d2e8.js",
+    "/escadron-website/assets/index-aabedad4.css"
   ],
   "src/utils/createCarousel.tsx": [
-    "/escadron-website/assets/index-777a0214.js",
-    "/escadron-website/assets/index-316ffbe4.css"
+    "/escadron-website/assets/index-2e38d2e8.js",
+    "/escadron-website/assets/index-aabedad4.css"
   ]
 }

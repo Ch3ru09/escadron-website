@@ -2,11 +2,11 @@
   "/": [
     {
       "type": "script",
-      "href": "/escadron-website/assets/index-777a0214.js"
+      "href": "/escadron-website/assets/index-2e38d2e8.js"
     },
     {
       "type": "script",
-      "href": "/escadron-website/assets/entry-client-844332c9.js"
+      "href": "/escadron-website/assets/entry-client-1e8af4c3.js"
     },
     {
       "type": "style",
@@ -14,7 +14,7 @@
     },
     {
       "type": "style",
-      "href": "/escadron-website/assets/index-316ffbe4.css"
+      "href": "/escadron-website/assets/index-aabedad4.css"
     }
   ],
   "/inscription/(Inscription)": [
@@ -26,7 +26,7 @@
   "entry-client": [
     {
       "type": "script",
-      "href": "/escadron-website/assets/entry-client-844332c9.js"
+      "href": "/escadron-website/assets/entry-client-1e8af4c3.js"
     },
     {
       "type": "style",

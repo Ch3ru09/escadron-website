@@ -11,19 +11,19 @@
       "src/routes/index.tsx",
       "src/routes/inscription/(Inscription).tsx"
     ],
-    "file": "assets/entry-client-844332c9.js",
+    "file": "assets/entry-client-1e8af4c3.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
   "src/routes/index.css": {
-    "file": "assets/index-316ffbe4.css",
+    "file": "assets/index-aabedad4.css",
     "src": "src/routes/index.css"
   },
   "src/routes/index.tsx": {
     "css": [
-      "assets/index-316ffbe4.css"
+      "assets/index-aabedad4.css"
     ],
-    "file": "assets/index-777a0214.js",
+    "file": "assets/index-2e38d2e8.js",
     "imports": [
       "src/entry-client.tsx"
     ],
