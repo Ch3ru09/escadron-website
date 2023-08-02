@@ -1,29 +1,29 @@
 {
   "src/entry-client.css": {
-    "file": "assets/entry-client-3cb0ed73.css",
+    "file": "assets/entry-client-316ac7bd.css",
     "src": "src/entry-client.css"
   },
   "src/entry-client.tsx": {
     "css": [
-      "assets/entry-client-3cb0ed73.css"
+      "assets/entry-client-316ac7bd.css"
     ],
     "dynamicImports": [
       "src/routes/index.tsx",
       "src/routes/inscription/(Inscription).tsx"
     ],
-    "file": "assets/entry-client-1e8af4c3.js",
+    "file": "assets/entry-client-355f6a3c.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
   "src/routes/index.css": {
-    "file": "assets/index-aabedad4.css",
+    "file": "assets/index-47fb5314.css",
     "src": "src/routes/index.css"
   },
   "src/routes/index.tsx": {
     "css": [
-      "assets/index-aabedad4.css"
+      "assets/index-47fb5314.css"
     ],
-    "file": "assets/index-2e38d2e8.js",
+    "file": "assets/index-4ce2947f.js",
     "imports": [
       "src/entry-client.tsx"
     ],
