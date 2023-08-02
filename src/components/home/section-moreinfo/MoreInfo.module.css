@@ -1,37 +1,93 @@
 .more-info {
   width: 80%;
-  margin: auto;
-  display: grid;
-  grid-template-areas:
-    "title     title"
-    "logo   donation"
-    "logo       orgs"
-    "links     email";
+  margin-left: 50%;
+  translate: -50%;
+  text-align: center;
 }
 
 .more-info * {
+  color: rgb(var(--primary-dark));
   font-family: sans-serif;
   font-weight: 400;
+}
+
+.more-info div {
+  text-align: left;
+}
+
+.more-info .info-donation,
+.more-info .info-orgs {
+  text-align: right;
+}
+
+.more-info h3 {
+  font-size: 1rem;
+}
+
+.more-info p {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(var(--primary));
+  font-size: 0.9rem;
+}
+
+.more-info button {
+  font-size: 15px;
+  color: rgb(var(--white));
+  background-color: rgb(var(--primary-dark));
+  padding: 14px;
+  border: none;
+  outline: none;
 }
 
 .info-title {
   grid-area: title;
 }
 
+.info-center {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.info-center-container {
+  display: flex;
+  flex-direction: column;
+  place-items: flex-end;
+}
+
 .info-logo {
   grid-area: logo;
+  height: 100%;
 }
 
 .info-donation {
   grid-area: donation;
+  width: 80%;
 }
 
 .info-orgs {
   grid-area: orgs;
+  width: 80%;
 }
 
 .info-links {
   grid-area: links;
+}
+
+.info-links > ul {
+  margin: 0;
+  padding: 0;
+}
+
+.info-links a {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(var(--primary));
+  font-size: 0.9rem;
+}
+
+.info-links a::before {
+  content: ">";
+  margin-right: 10px;
 }
 
 .info-email {
