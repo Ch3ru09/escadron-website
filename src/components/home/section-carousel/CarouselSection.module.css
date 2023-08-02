@@ -1,0 +1,28 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 19/9;
+  margin: 0 auto;
+}
+
+.inscription-button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 5% 5%;
+  padding: 1% 2%;
+  border: rgb(var(--white)) solid 15px;
+  color: rgb(var(--white));
+  background-color: rgb(var(--accent-red));
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: background-color 250ms ease;
+}
+
+.inscription-button:hover {
+  background-color: rgb(var(--primary-dark));
+  cursor: pointer;
+  transition: background-color 250ms ease;
+}
