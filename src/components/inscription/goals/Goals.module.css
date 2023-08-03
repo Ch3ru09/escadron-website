@@ -1,0 +1,38 @@
+.goals-container {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  gap: 15px;
+  margin: 20px;
+}
+
+.goals-container > div {
+  padding: 30px 50px;
+}
+
+.goals-container h2,
+.goals-container p {
+  margin: 0;
+}
+
+.goals-container h2 {
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.goals-container p {
+  font-size: 0.9rem;
+}
+
+.goals-values {
+  background-color: rgb(var(--accent-red-pastel));
+}
+
+.goals-success {
+  background-color: rgb(var(--accent-teal));
+}
+
+.goals-accessibility {
+  background-color: rgb(var(--accent-green));
+}
+

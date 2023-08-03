@@ -1,6 +1,7 @@
 .header {
   display: flex;
-  height: 15vh;
+  font-family: "Francois One", Arial, Helvetica, sans-serif;
+  height: 16vh;
   border-bottom: rgb(var(--primary)) solid 5px;
   justify-content: center;
 }
@@ -45,12 +46,12 @@
 .cadets-description {
   text-align: right;
   color: #eee;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
 
 .navbar {
   margin-left: 100px;
-  padding: 0px 4px;
+  padding: 0px 5px;
   color: #eee;
   height: fit-content;
   position: relative;
@@ -74,3 +75,4 @@
   cursor: pointer;
   transition: all 100ms ease;
 }
+

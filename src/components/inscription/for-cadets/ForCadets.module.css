@@ -1,0 +1,15 @@
+.for-cadets-container {
+  padding: 30px;
+}
+
+.what-to-bring {
+  background-color: lightgrey;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+
+.what-to-bring-title {
+  font-weight: 10px;
+  font-size: 0.8rem;
+}
+

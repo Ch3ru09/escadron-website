@@ -1,4 +1,7 @@
 .calendar {
   width: 80%;
   aspect-ratio: 21/9;
+  margin-left: 50%;
+  translate: -50%;
 }
+

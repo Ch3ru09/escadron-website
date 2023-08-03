@@ -8,15 +8,22 @@
   --accent-orange: 217, 153, 56;
   --accent-blue: 20, 34, 137;
   --accent-teal: 95, 177, 186;
-  --accent-red: 226 53 47;
+  --accent-red: 226, 53, 47;
+  --accent-red-pastel: 212, 112, 109;
+  --accent-green: 154, 213, 186;
   --white: 238, 238, 238;
 }
 
 body {
   margin: 0;
-  font-family: "Francois One", Arial, sans-serif;
+  font-family: sans-serif;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-family: "Francois One", Arial, Helvetica, sans-serif;
 }
 
 .not-selectable {
@@ -30,6 +37,12 @@ body {
 
 ul {
   list-style-type: none;
+}
+
+li {
+  font-family: "Francois One", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 0.9rem;
 }
 
 .bg-clouds {

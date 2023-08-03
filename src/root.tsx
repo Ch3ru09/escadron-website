@@ -5,7 +5,7 @@ import Layout from "./components/layout/Layout";
 import "./root.css";
 
 export default function Root() {
-  const bgColor = ["var(--white)", "aliceblue"];
+  const bgColor = ["rgb(var(--white))", "aliceblue"];
 
   return (
     <Html lang="en">
