@@ -1,5 +1,10 @@
 .for-volunteers-container {
   padding: 30px;
-  width: 75%;
+  border-left: 2px solid rgba(var(--primary-light), 0.5);
+  height: fit-content;
+}
+
+.for-volunteers-container > *:not(h2) {
+  color: grey;
 }
 

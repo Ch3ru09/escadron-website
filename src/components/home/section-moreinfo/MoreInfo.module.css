@@ -85,11 +85,6 @@
   font-size: 0.9rem;
 }
 
-.info-links a::before {
-  content: ">";
-  margin-right: 10px;
-}
-
 .info-email {
   grid-area: email;
 }

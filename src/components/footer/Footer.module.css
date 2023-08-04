@@ -1,0 +1,20 @@
+.footer {
+  font-family: "Francois One", Arial, Helvetica, sans-serif;
+  height: 16vh;
+  border-top: rgb(var(--primary)) solid 5px;
+  justify-content: center;
+  color: rgb(var(--white));
+}
+
+.footer > section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.footer-info {
+  text-align: center;
+  justify-content: center;
+  font-size: 13px;
+}
+

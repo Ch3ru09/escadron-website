@@ -9,7 +9,10 @@ export default function Inscription() {
       <Goals />
       <div class={styles["inscription-container"]}>
         <ForCadets />
-        <ForVolunteers />
+        <div style="width: 45%;">
+          <ForVolunteers />
+          <img src="test" alt="" />
+        </div>
       </div>
     </>
   );

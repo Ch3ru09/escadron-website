@@ -7,7 +7,7 @@
 }
 
 .goals-container > div {
-  padding: 30px 50px;
+  padding: min(30px, 3%) min(50px, 5%);
 }
 
 .goals-container h2,

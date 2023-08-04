@@ -49,7 +49,7 @@ export default function MoreInfo() {
       <div class={styles["info-email"]}>
         <h3>LISTE D'ENVOI ÉLECTRONIQUE</h3>
         <p>
-          Abonnez-vous à notre liste d'envoi électronique pour demeurer informé sur nos activités.
+          Abonnez-vous à notre liste d'envoi électronique pour demeurer informé sur nos activités.{" "}
           <a href="//mailchi.mp/7738b845e605/inscription-notre-liste-denvoi-lectronique" target="_blank">
             Cliquez ici pour vous abonner.
           </a>
