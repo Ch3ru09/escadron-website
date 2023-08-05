@@ -11,7 +11,7 @@ export default function Inscription() {
         <ForCadets />
         <div style="width: 45%;">
           <ForVolunteers />
-          <img src="test" alt="" />
+          <img src="/inscription-image.jpeg" alt="" class={styles["inscription-image"]} />
         </div>
       </div>
     </>

@@ -2,19 +2,67 @@
   font-family: "Francois One", Arial, Helvetica, sans-serif;
   height: 16vh;
   border-top: rgb(var(--primary)) solid 5px;
-  justify-content: center;
   color: rgb(var(--white));
+  overflow: hidden;
+  margin-top: 2.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer > section {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  height: 50%;
+}
+
+.footer img:not(.logo-escadron) {
+  /* height: 100%; */
+  aspect-ratio: 1;
+  width: auto;
+}
+
+.first-row {
+  padding: 10px 0px;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.first-row > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.first-row > div > p {
+  margin: auto 20px;
+}
+
+.logo-escadron {
+  height: 100%;
+}
+
+.join-facebook {
+  flex-wrap: nowrap;
+  height: 100%;
+  margin-right: 5%;
+  cursor: pointer;
+}
+
+.join-facebook > h1 {
+  margin: auto 10px;
+}
+
+.join-facebook > img {
+  height: 50%;
+  margin: auto;
 }
 
 .footer-info {
+  color: lightgrey;
+  width: 100%;
   text-align: center;
   justify-content: center;
+  align-items: flex-end;
   font-size: 13px;
 }
 
