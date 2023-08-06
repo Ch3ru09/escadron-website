@@ -1,12 +1,41 @@
 .activities-title {
+  font-size: 4rem;
   font-family: sans-serif;
   font-weight: 300;
-  margin: 10px;
+  margin: 40px 40px 20px 40px;
 }
 
 .activities-subtitle {
   font-family: sans-serif;
   font-weight: 300;
-  margin: 10px;
+  font-size: 1.2rem;
+  margin: 20px 40px;
+}
+
+.activities-container {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.activities-container > div {
+  border: 5px solid rgb(var(--accent-blue));
+  border-radius: 30px;
+  padding: 0px 30px;
+}
+
+.activities-container h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.activities-container p {
+  color: grey;
+  font-weight: 100;
+  font-family: sans-serif;
 }
 
