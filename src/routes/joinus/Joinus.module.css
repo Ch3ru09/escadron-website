@@ -1,0 +1,77 @@
+.joinus-title {
+  font-size: 3rem;
+  font-family: sans-serif;
+  font-weight: 300;
+  margin: 40px 40px 20px 40px;
+}
+
+.joinus-subtitle {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin: 20px 40px;
+}
+
+.joinus-description {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 0.85rem;
+  margin: 20px 40px;
+}
+
+.first {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-direction: row;
+  margin: auto 40px;
+}
+
+.contact-information {
+  flex: 1 1 0;
+  background-color: lightgrey;
+
+  padding-bottom: 20px;
+}
+
+.contact-information > h3 {
+  font-family: sans-serif;
+  font-weight: 400;
+  margin: 20px 40px;
+  margin-bottom: 0;
+}
+
+.contact-information > div {
+  display: grid;
+  margin: 10px;
+  grid-template-areas:
+    "phone  postal"
+    "mail   postal";
+}
+
+.contact-information > div > div {
+  margin: 0 20px;
+}
+
+.phone {
+  grid-area: phone;
+}
+
+.mail {
+  grid-area: mail;
+}
+
+.postal {
+  grid-area: postal;
+}
+
+.postal > p {
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.map {
+  flex: 1 1 0;
+  background-color: rgb(var(--primary-light));
+}
+
