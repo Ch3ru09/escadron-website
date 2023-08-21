@@ -1,36 +1,84 @@
 {
+  "/activities/(Activities)": [
+    {
+      "type": "script",
+      "href": "/escadron-website/assets/(Activities)-028ef07a.js"
+    },
+    {
+      "type": "script",
+      "href": "/escadron-website/assets/entry-client-57296771.js"
+    },
+    {
+      "type": "style",
+      "href": "/escadron-website/assets/entry-client-0ad09084.css"
+    },
+    {
+      "type": "style",
+      "href": "/escadron-website/assets/(Activities)-f5faf723.css"
+    }
+  ],
   "/": [
     {
       "type": "script",
-      "href": "/escadron-website/assets/index-93b559fb.js"
+      "href": "/escadron-website/assets/index-2b8b50f7.js"
     },
     {
       "type": "script",
-      "href": "/escadron-website/assets/entry-client-5eabef0d.js"
+      "href": "/escadron-website/assets/entry-client-57296771.js"
     },
     {
       "type": "style",
-      "href": "/escadron-website/assets/entry-client-ba4d5f80.css"
+      "href": "/escadron-website/assets/entry-client-0ad09084.css"
     },
     {
       "type": "style",
-      "href": "/escadron-website/assets/index-cbe9a593.css"
+      "href": "/escadron-website/assets/index-e98c0d2d.css"
     }
   ],
   "/inscription/(Inscription)": [
     {
       "type": "script",
-      "href": "/escadron-website/assets/(Inscription)-84dd34e5.js"
+      "href": "/escadron-website/assets/(Inscription)-efa3e7a4.js"
+    },
+    {
+      "type": "script",
+      "href": "/escadron-website/assets/entry-client-57296771.js"
+    },
+    {
+      "type": "style",
+      "href": "/escadron-website/assets/entry-client-0ad09084.css"
+    },
+    {
+      "type": "style",
+      "href": "/escadron-website/assets/(Inscription)-bb3ea006.css"
+    }
+  ],
+  "/joinus/(Joinus)": [
+    {
+      "type": "script",
+      "href": "/escadron-website/assets/(Joinus)-d5811612.js"
+    },
+    {
+      "type": "script",
+      "href": "/escadron-website/assets/entry-client-57296771.js"
+    },
+    {
+      "type": "style",
+      "href": "/escadron-website/assets/entry-client-0ad09084.css"
+    },
+    {
+      "type": "style",
+      "href": "/escadron-website/assets/(Joinus)-58588e99.css"
     }
   ],
   "entry-client": [
     {
       "type": "script",
-      "href": "/escadron-website/assets/entry-client-5eabef0d.js"
+      "href": "/escadron-website/assets/entry-client-57296771.js"
     },
     {
       "type": "style",
-      "href": "/escadron-website/assets/entry-client-ba4d5f80.css"
+      "href": "/escadron-website/assets/entry-client-0ad09084.css"
     }
   ],
   "index.html": []

@@ -1,38 +1,88 @@
 {
   "src/entry-client.css": {
-    "file": "assets/entry-client-ba4d5f80.css",
+    "file": "assets/entry-client-0ad09084.css",
     "src": "src/entry-client.css"
   },
   "src/entry-client.tsx": {
     "css": [
-      "assets/entry-client-ba4d5f80.css"
+      "assets/entry-client-0ad09084.css"
     ],
     "dynamicImports": [
       "src/routes/index.tsx",
-      "src/routes/inscription/(Inscription).tsx"
+      "src/routes/activities/(Activities).tsx",
+      "src/routes/inscription/(Inscription).tsx",
+      "src/routes/joinus/(Joinus).tsx"
     ],
-    "file": "assets/entry-client-5eabef0d.js",
+    "file": "assets/entry-client-57296771.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
+  "src/routes/activities/(Activities).css": {
+    "file": "assets/(Activities)-f5faf723.css",
+    "src": "src/routes/activities/(Activities).css"
+  },
+  "src/routes/activities/(Activities).tsx": {
+    "css": [
+      "assets/(Activities)-f5faf723.css"
+    ],
+    "dynamicImports": [
+      "src/routes/activities/activities.json"
+    ],
+    "file": "assets/(Activities)-028ef07a.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/activities/(Activities).tsx"
+  },
+  "src/routes/activities/activities.json": {
+    "file": "assets/activities-8f7020a3.js",
+    "isDynamicEntry": true,
+    "src": "src/routes/activities/activities.json"
+  },
   "src/routes/index.css": {
-    "file": "assets/index-cbe9a593.css",
+    "file": "assets/index-e98c0d2d.css",
     "src": "src/routes/index.css"
   },
   "src/routes/index.tsx": {
     "css": [
-      "assets/index-cbe9a593.css"
+      "assets/index-e98c0d2d.css"
     ],
-    "file": "assets/index-93b559fb.js",
+    "file": "assets/index-2b8b50f7.js",
     "imports": [
       "src/entry-client.tsx"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/index.tsx"
   },
+  "src/routes/inscription/(Inscription).css": {
+    "file": "assets/(Inscription)-bb3ea006.css",
+    "src": "src/routes/inscription/(Inscription).css"
+  },
   "src/routes/inscription/(Inscription).tsx": {
-    "file": "assets/(Inscription)-84dd34e5.js",
+    "css": [
+      "assets/(Inscription)-bb3ea006.css"
+    ],
+    "file": "assets/(Inscription)-efa3e7a4.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ],
     "isDynamicEntry": true,
     "src": "src/routes/inscription/(Inscription).tsx"
+  },
+  "src/routes/joinus/(Joinus).css": {
+    "file": "assets/(Joinus)-58588e99.css",
+    "src": "src/routes/joinus/(Joinus).css"
+  },
+  "src/routes/joinus/(Joinus).tsx": {
+    "css": [
+      "assets/(Joinus)-58588e99.css"
+    ],
+    "file": "assets/(Joinus)-d5811612.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/joinus/(Joinus).tsx"
   }
 }
