@@ -1,8 +1,9 @@
-import { For, createSignal } from "solid-js";
+import { For, createEffect, createSignal } from "solid-js";
 import styles from "./Carousel.module.css";
 
 export default function ImageCarousel({ images }: { images: { url: string; name: string }[] }) {
   const [currentIndex, setCurrentIndex] = createSignal(0);
+  let timerRef: NodeJS.Timeout;
 
   const previousIndex = () => {
     setCurrentIndex((current) => (current === 0 ? images.length - 1 : current - 1));
@@ -16,9 +17,19 @@ export default function ImageCarousel({ images }: { images: { url: string; name:
     setCurrentIndex(index);
   };
 
-  setInterval(() => {
-    setCurrentIndex((current) => (current + 1) % images.length);
-  }, 5000);
+  createEffect(() => {
+    currentIndex();
+
+    if (timerRef) {
+      clearTimeout(timerRef);
+    }
+
+    timerRef = setTimeout(() => {
+      nextIndex();
+    }, 5000);
+
+    return () => clearTimeout(timerRef);
+  });
 
   return (
     <div class={styles["carousel-container"]}>
@@ -28,7 +39,15 @@ export default function ImageCarousel({ images }: { images: { url: string; name:
       <div class={`${styles["arrow"]} ${styles["right-arrow"]}`} onclick={nextIndex}>
         》
       </div>
-      <div class={styles["carousel-item"]} style={{ "background-image": `url(${images[currentIndex()].url})` }}></div>
+      <div class={styles["items-container"]} style={`--nbitems: ${images.length}; --current-index: ${currentIndex()}`}>
+        <For each={images} fallback={<div></div>}>
+          {(_, slideIndex) => {
+            return (
+              <div class={styles["carousel-item"]} style={`background-image: url(${images[slideIndex()].url})`}></div>
+            );
+          }}
+        </For>
+      </div>
       <div class={styles["dots-container"]}>
         <For each={images} fallback={<div></div>}>
           {(_, index) => (

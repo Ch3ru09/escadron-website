@@ -11,7 +11,6 @@ export default function Header() {
   if (pathname == undefined) {
     throw new Error("cannot find path");
   }
-  console.log(pathname);
 
   if (pathname == "") {
     pathname = "/";
@@ -27,11 +26,15 @@ export default function Header() {
         </div>
         <div class={styles["logo-text-container"]}>
           <div class={`${styles["logo-text-title"]} not-selectable`}>Escadron 811 La Prairie</div>
-          <div class={`${styles["logo-text-description"]} not-selectable`}>Les cadets de l'Aviation royale du Canada</div>
+          <div class={`${styles["logo-text-description"]} not-selectable`}>
+            Les cadets de l'Aviation royale du Canada
+          </div>
         </div>
       </div>
       <div class={styles["right-side-container"]}>
-        <p class={styles["cadets-description"]}>Le programme des cadets s'adresse aux jeunes de 12 à 18 ans. Il n'y a aucun frais d'inscription.</p>
+        <p class={styles["cadets-description"]}>
+          Le programme des cadets s'adresse aux jeunes de 12 à 18 ans. Il n'y a aucun frais d'inscription.
+        </p>
         <nav class={styles["navbar"]}>
           <For each={pages} fallback={<div>Loading...</div>}>
             {(name) => <NavElement name={name} currentPage={currentPage} setCurrentPage={setCurrentPage} />}
@@ -58,7 +61,8 @@ function NavElement({ name, currentPage, setCurrentPage }: NavProps) {
       }}
       href={ref[name]}
       class={`${styles["nav-element"]} ${currentPage() == ref[name] ? styles["current-page"] : ""}`}
-      tabIndex={0}>
+      tabIndex={0}
+    >
       {name}
     </A>
   );
@@ -69,3 +73,4 @@ type NavProps = {
   currentPage: Accessor<string | undefined>;
   setCurrentPage: Setter<string>;
 };
+

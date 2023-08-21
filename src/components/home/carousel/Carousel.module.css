@@ -2,6 +2,7 @@
   height: 100%;
   position: relative;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .carousel-item {
@@ -9,6 +10,18 @@
   height: 100%;
   background-position: center top;
   background-size: cover;
+}
+
+.items-container {
+  --nbitems: 1;
+  --current-index: 0;
+
+  width: calc(100% * var(--nbitems));
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  transition: transform ease-in-out 500ms;
+  transform: translateX(calc(-1 * var(--current-index) * 100% / var(--nbitems)));
 }
 
 .arrow {
