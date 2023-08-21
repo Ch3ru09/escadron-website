@@ -1,11 +1,11 @@
 {
   "src/entry-client.css": {
-    "file": "assets/entry-client-0ad09084.css",
+    "file": "assets/entry-client-869b0590.css",
     "src": "src/entry-client.css"
   },
   "src/entry-client.tsx": {
     "css": [
-      "assets/entry-client-0ad09084.css"
+      "assets/entry-client-869b0590.css"
     ],
     "dynamicImports": [
       "src/routes/index.tsx",
@@ -13,7 +13,7 @@
       "src/routes/inscription/(Inscription).tsx",
       "src/routes/joinus/(Joinus).tsx"
     ],
-    "file": "assets/entry-client-57296771.js",
+    "file": "assets/entry-client-087a5532.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
@@ -28,7 +28,7 @@
     "dynamicImports": [
       "src/routes/activities/activities.json"
     ],
-    "file": "assets/(Activities)-028ef07a.js",
+    "file": "assets/(Activities)-1f10804b.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -48,7 +48,7 @@
     "css": [
       "assets/index-e98c0d2d.css"
     ],
-    "file": "assets/index-2b8b50f7.js",
+    "file": "assets/index-183783f7.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -63,7 +63,7 @@
     "css": [
       "assets/(Inscription)-bb3ea006.css"
     ],
-    "file": "assets/(Inscription)-efa3e7a4.js",
+    "file": "assets/(Inscription)-5a5f3ff2.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -78,7 +78,7 @@
     "css": [
       "assets/(Joinus)-58588e99.css"
     ],
-    "file": "assets/(Joinus)-d5811612.js",
+    "file": "assets/(Joinus)-45f5d95f.js",
     "imports": [
       "src/entry-client.tsx"
     ],
