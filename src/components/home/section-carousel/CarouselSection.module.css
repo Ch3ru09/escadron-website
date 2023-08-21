@@ -20,7 +20,9 @@
   transition: background-color 250ms ease;
 }
 
-.inscription-button:hover {
+.inscription-button:hover,
+.inscription-button:focus {
+  outline: none;
   background-color: rgb(var(--primary-dark));
   cursor: pointer;
   transition: background-color 250ms ease;

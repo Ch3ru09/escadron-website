@@ -35,7 +35,14 @@ export default function Joinus() {
             </div>
           </div>
         </div>
-        <div class={styles["map"]}>hello</div>
+        <div class={styles["map"]}>(map goes here)</div>
+      </section>
+      <section>
+        <h3>ENVOYEZ-NOUS UN MESSAGE DIRECTEMENT ICI</h3>
+        <div>
+          <label for="name">Inscrivez votre nom :</label>
+          <input name="name" />
+        </div>
       </section>
     </>
   );

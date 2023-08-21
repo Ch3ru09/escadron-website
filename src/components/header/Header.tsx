@@ -1,8 +1,10 @@
+import { useNavigate } from "solid-start";
 import styles from "./Header.module.css";
-import { For } from "solid-js";
+import { Accessor, For, Setter, createSignal } from "solid-js";
 
 export default function Header() {
   const pages = ["accueil", "inscription", "activités", "cadets", "nous rejoindre"];
+  const [currentPage, setCurrentPage] = createSignal<string>();
 
   return (
     <header class={`bg-clouds ${styles["header"]}`}>
@@ -23,7 +25,7 @@ export default function Header() {
         </p>
         <nav class={styles["navbar"]}>
           <For each={pages} fallback={<div>Loading...</div>}>
-            {(name) => <NavElement name={name} />}
+            {(name) => <NavElement name={name} currentPage={currentPage} setCurrentPage={setCurrentPage} />}
           </For>
         </nav>
       </div>
@@ -31,7 +33,8 @@ export default function Header() {
   );
 }
 
-function NavElement({ name }: NavProps) {
+function NavElement({ name, currentPage, setCurrentPage }: NavProps) {
+  const nav = useNavigate();
   const ref: { [key: string]: string } = {
     accueil: "/",
     inscription: "inscription",
@@ -41,13 +44,31 @@ function NavElement({ name }: NavProps) {
   };
 
   return (
-    <a href={ref[name]} class={`${styles["nav-element"]}`} tabIndex={0}>
-      {name.toUpperCase()}
-    </a>
+    <button
+      onclick={(e) => {
+        e.preventDefault();
+        nav(ref[name]);
+        setCurrentPage(name);
+      }}
+      class={`${styles["nav-element"]} ${currentPage() == name ? styles["current-page"] : ""}`}
+      tabIndex={0}
+    >
+      {name}
+    </button>
+
+    // <a
+    //   href={ref[name]}
+    //   class={`${styles["nav-element"]} ${currentPage() == name ? styles["current-page"] : ""}`}
+    //   tabIndex={0}
+    // >
+    //   {name}
+    // </a>
   );
 }
 
 type NavProps = {
   name: string;
+  currentPage: Accessor<string | undefined>;
+  setCurrentPage: Setter<string>;
 };
 

@@ -60,12 +60,17 @@
 
 .nav-element {
   color: #eee;
+  background-color: transparent;
   text-decoration: none;
-  display: inline-block;
-  vertical-align: bottom;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 400;
   margin: 7px 3px;
   padding: 8px 8px;
   outline: none;
+  border: none;
+  display: inline-block;
+  vertical-align: bottom;
   transition: all 100ms ease;
 }
 
@@ -76,3 +81,9 @@
   transition: all 100ms ease;
 }
 
+.current-page {
+  background-color: rgb(var(--accent-teal));
+}
+
+@media (width < 1200px) {
+}
