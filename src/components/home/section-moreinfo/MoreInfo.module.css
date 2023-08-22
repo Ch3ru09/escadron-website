@@ -74,7 +74,7 @@
   grid-area: links;
 }
 
-.info-links > ul {
+.info-links>ul {
   margin: 0;
   padding: 0;
 }
@@ -87,5 +87,5 @@
 
 .info-email {
   grid-area: email;
+  margin-bottom: 50px;
 }
-
