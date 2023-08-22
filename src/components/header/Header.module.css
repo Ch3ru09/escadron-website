@@ -101,7 +101,7 @@
 }
 
 .menu-button path {
-  transition: 1s;
+  transition: 1000ms;
 }
 
 .menu-top {
@@ -154,14 +154,39 @@
     margin: 5px;
   }
 
-  .navbar {
-    /* temporary removal */
-    display: none;
-  }
-
   .menu-button {
     display: block;
     padding: 20px;
     margin: 5px;
   }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 25%;
+    z-index: 9998;
+    padding-top: 17vh;
+    padding-right: 10%;
+    padding-left: 100%;
+    background-color: transparent;
+    background-image: linear-gradient(to right, transparent, rgb(var(--primary)) 70%);
+
+    opacity: 0;
+    transform: translateX(50%);
+    transition: all 1000ms ease;
+    overflow: hidden;
+  }
+
+  .nav-open {
+    opacity: 1;
+    transform: translateX(0%);
+
+    transition: all 1000ms ease;
+  }
 }
+
