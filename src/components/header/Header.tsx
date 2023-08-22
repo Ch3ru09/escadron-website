@@ -1,6 +1,6 @@
 import { A } from "solid-start";
 import styles from "./Header.module.css";
-import { Accessor, For, Setter, createEffect, createSignal } from "solid-js";
+import { Accessor, For, Setter, createEffect, createSignal, on } from "solid-js";
 import { useLocation } from "@solidjs/router";
 
 export default function Header() {
@@ -21,8 +21,10 @@ export default function Header() {
   const [expanded, setExpanded] = createSignal(false);
 
   createEffect(() => {
-    currentPage();
-    setExpanded(false);
+    on(currentPage, () => {
+      setExpanded(false);
+      navBar()!.classList.toggle(styles["nav-open"]);
+    });
   });
 
   return (
@@ -79,17 +81,13 @@ function NavElement({ name, currentPage, setCurrentPage }: NavProps) {
 // TODO: move navBar extended to Header element
 
 function Menu({ navBar, expanded, setExpanded }: MenuProps) {
-  createEffect(() => {
-    expanded();
-    navBar()!.classList.toggle(styles["nav-open"]);
-  });
-
   return (
     <button
       class={styles["menu-button"]}
       aria-expanded={expanded()}
       onclick={() => {
         setExpanded((current) => !current);
+        navBar()!.classList.toggle(styles["nav-open"]);
       }}
     >
       <svg
