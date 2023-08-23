@@ -15,7 +15,7 @@
   color: rgb(var(--white));
   background-color: rgb(var(--accent-red));
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 150%;
   font-weight: 600;
   transition: background-color 250ms ease;
 }
@@ -26,5 +26,13 @@
   background-color: rgb(var(--primary-dark));
   cursor: pointer;
   transition: background-color 250ms ease;
+}
+
+@media (width < 1100px) {
+  .inscription-button {
+    margin: 0px 0px;
+    border: 0;
+    font-size: 100%;
+  }
 }
 

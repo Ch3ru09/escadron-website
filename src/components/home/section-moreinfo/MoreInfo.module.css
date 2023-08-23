@@ -39,10 +39,6 @@
   outline: none;
 }
 
-.info-title {
-  grid-area: title;
-}
-
 .info-center {
   display: flex;
   flex-direction: row;
@@ -56,25 +52,18 @@
 }
 
 .info-logo {
-  grid-area: logo;
   height: 100%;
 }
 
 .info-donation {
-  grid-area: donation;
   width: 80%;
 }
 
 .info-orgs {
-  grid-area: orgs;
   width: 80%;
 }
 
-.info-links {
-  grid-area: links;
-}
-
-.info-links>ul {
+.info-links > ul {
   margin: 0;
   padding: 0;
 }
@@ -86,6 +75,31 @@
 }
 
 .info-email {
-  grid-area: email;
   margin-bottom: 50px;
 }
+
+@media (width <= 850px) {
+  .more-info .info-donation,
+  .more-info .info-orgs {
+    text-align: left;
+  }
+
+  .info-center {
+    display: block;
+    position: relative;
+  }
+
+  .info-logo {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.15;
+    left: 50%;
+    translate: -50%;
+  }
+
+  .info-center-container {
+    display: block;
+    margin: 40px;
+  }
+}
+

@@ -1,3 +1,4 @@
+import { A } from "solid-start";
 import ImageCarousel from "../carousel/Carousel";
 import styles from "./CarouselSection.module.css";
 
@@ -16,9 +17,9 @@ export default function Carousel() {
   return (
     <div class={styles["carousel"]}>
       <ImageCarousel images={images} />
-      <a href="/inscription" class={styles["inscription-button"]}>
+      <A href="/inscription" class={styles["inscription-button"]}>
         JE VEUX M'INSCRIRE
-      </a>
+      </A>
     </div>
   );
 }
