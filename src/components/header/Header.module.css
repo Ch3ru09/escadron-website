@@ -169,7 +169,6 @@
     top: 0;
     height: 100%;
     width: 25%;
-    z-index: 9998;
     padding-top: 17vh;
     padding-right: 10%;
     padding-left: 100%;
@@ -179,12 +178,12 @@
     opacity: 0;
     transform: translateX(50%);
     transition: all 1000ms ease;
-    overflow: hidden;
   }
 
   .nav-open {
     opacity: 1;
     transform: translateX(0%);
+    z-index: 9998;
 
     transition: all 1000ms ease;
   }

@@ -1,10 +1,11 @@
 import { A } from "solid-start";
 import styles from "./Header.module.css";
-import { Accessor, For, Setter, createEffect, createSignal, on } from "solid-js";
-import { useLocation } from "@solidjs/router";
+import { Accessor, For, Setter, createEffect, createSignal, onMount } from "solid-js";
+import { useLocation, useNavigate } from "@solidjs/router";
 
 export default function Header() {
   const pages = ["accueil", "inscription", "activités", "cadets", "nous rejoindre"];
+  const nav = useNavigate();
 
   let pathname = useLocation().pathname.split("/").at(-1);
 
@@ -21,9 +22,16 @@ export default function Header() {
   const [expanded, setExpanded] = createSignal(false);
 
   createEffect(() => {
-    on(currentPage, () => {
+    currentPage();
+
+    setExpanded(false);
+    navBar()!.classList.remove(styles["nav-open"]);
+  });
+
+  onMount(() => {
+    document.addEventListener("scroll", () => {
       setExpanded(false);
-      navBar()!.classList.toggle(styles["nav-open"]);
+      navBar()!.classList.remove(styles["nav-open"]);
     });
   });
 
@@ -33,7 +41,12 @@ export default function Header() {
         <div class={`${styles["logo"]} not-selectable`}>
           <img src="/logo.png" alt="" />
         </div>
-        <div class={styles["logo-text-container"]}>
+        <div
+          class={styles["logo-text-container"]}
+          onclick={() => {
+            nav("/");
+          }}
+        >
           <div class={`${styles["logo-text-title"]} not-selectable`}>Escadron 811 La Prairie</div>
           <div class={`${styles["logo-text-description"]} not-selectable`}>
             Les cadets de l'Aviation royale du Canada
@@ -67,7 +80,7 @@ function NavElement({ name, currentPage, setCurrentPage }: NavProps) {
   return (
     <A
       onclick={() => {
-        setCurrentPage(name);
+        setCurrentPage(ref[name]);
       }}
       href={ref[name]}
       class={`${styles["nav-element"]} ${currentPage() == ref[name] ? styles["current-page"] : ""}`}
@@ -77,8 +90,6 @@ function NavElement({ name, currentPage, setCurrentPage }: NavProps) {
     </A>
   );
 }
-
-// TODO: move navBar extended to Header element
 
 function Menu({ navBar, expanded, setExpanded }: MenuProps) {
   return (
