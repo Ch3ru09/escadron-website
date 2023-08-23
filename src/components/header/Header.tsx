@@ -60,7 +60,9 @@ export default function Header() {
         </p>
         <nav class={styles["navbar"]} ref={setNavBar}>
           <For each={pages} fallback={<div>Loading...</div>}>
-            {(name) => <NavElement name={name} currentPage={currentPage} setCurrentPage={setCurrentPage} />}
+            {(name) => (
+              <NavElement name={name} currentPage={currentPage} setCurrentPage={setCurrentPage} expanded={expanded} />
+            )}
           </For>
         </nav>
       </div>
@@ -68,7 +70,7 @@ export default function Header() {
   );
 }
 
-function NavElement({ name, currentPage, setCurrentPage }: NavProps) {
+function NavElement({ name, currentPage, setCurrentPage, expanded }: NavProps) {
   const ref: { [key: string]: string } = {
     accueil: "/",
     inscription: "inscription",
@@ -83,8 +85,9 @@ function NavElement({ name, currentPage, setCurrentPage }: NavProps) {
         setCurrentPage(ref[name]);
       }}
       href={ref[name]}
-      class={`${styles["nav-element"]} ${currentPage() == ref[name] ? styles["current-page"] : ""}`}
-      tabIndex={0}
+      class={`${styles["nav-element"]} ${currentPage() == ref[name] ? styles["current-page"] : ""} 
+      }`}
+      tabIndex={expanded() ? 0 : -1}
     >
       {name}
     </A>
@@ -100,6 +103,7 @@ function Menu({ navBar, expanded, setExpanded }: MenuProps) {
         setExpanded((current) => !current);
         navBar()!.classList.toggle(styles["nav-open"]);
       }}
+      tabIndex={0}
     >
       <svg
         viewBox="0 0 256 256"
@@ -121,6 +125,7 @@ type NavProps = {
   name: string;
   currentPage: Accessor<string | undefined>;
   setCurrentPage: Setter<string>;
+  expanded: Accessor<boolean>;
 };
 
 type MenuProps = {

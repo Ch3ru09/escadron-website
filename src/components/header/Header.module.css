@@ -77,7 +77,7 @@
 
 .nav-element:hover,
 .nav-element:focus {
-  background-color: rgb(var(--accent-teal));
+  background-color: rgb(var(--accent-red-pastel));
   cursor: pointer;
   transition: all 100ms ease;
 }
@@ -98,6 +98,14 @@
 
   display: none;
   scale: -1;
+
+  outline: none;
+}
+
+.menu-bottom:focus,
+.menu-bottom:hover {
+  --button-color: rgb(var(--accent-teal));
+  background-color: aliceblue;
 }
 
 .menu-button path {
@@ -155,9 +163,16 @@
   }
 
   .menu-button {
+    --button-color: rgb(var(--white));
+
     display: block;
     padding: 20px;
     margin: 5px;
+  }
+
+  .menu-button:hover,
+  .menu-button:focus {
+    --button-color: rgb(var(--accent-teal));
   }
 
   .navbar {
@@ -169,9 +184,13 @@
     top: 0;
     height: 100%;
     width: 25%;
+
+    z-index: -1;
+
     padding-top: 17vh;
     padding-right: 10%;
     padding-left: 100%;
+
     background-color: transparent;
     background-image: linear-gradient(to right, transparent, rgb(var(--primary)) 70%);
 
