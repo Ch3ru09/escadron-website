@@ -24,6 +24,13 @@
   border: 5px solid rgb(var(--accent-blue));
   border-radius: 30px;
   padding: 0px 30px;
+  scale: 1;
+  transition: scale 250ms cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.activities-container > div:hover {
+  scale: 1.2;
+  transition: scale 250ms cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 .activities-container h3 {
