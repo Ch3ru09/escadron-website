@@ -74,11 +74,12 @@ function NavElement({ name, currentPage, setCurrentPage, expanded }: NavProps) {
 
   return (
     <A
-      onclick={() => {
+      onclick={(e) => {
         setCurrentPage(ref[name]);
+        document.activeElement?.blur();
       }}
       href={ref[name]}
-      class={`${styles["nav-element"]} ${currentPage() == ref[name] ? styles["current-page"] : ""} 
+      class={`${styles["nav-element"]} ${currentPage() == ref[name] ? styles["current-page"] : ""}
       }`}
       tabIndex={expanded() ? 0 : -1}>
       {name}
