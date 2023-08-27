@@ -3,6 +3,8 @@ import ForCadets from "~/components/inscription/for-cadets/ForCadets";
 import ForVolunteers from "~/components/inscription/for-volunteers/ForVolunteers";
 import styles from "./Inscription.module.css";
 
+import InscriptionImage from "./inscription-image.jpeg";
+
 export default function Inscription() {
   return (
     <>
@@ -11,10 +13,9 @@ export default function Inscription() {
         <ForCadets />
         <div style="width: 45%;">
           <ForVolunteers />
-          <img src="/inscription-image.jpeg" alt="" class={styles["inscription-image"]} />
+          <img src={InscriptionImage} alt="" class={styles["inscription-image"]} />
         </div>
       </div>
     </>
   );
 }
-

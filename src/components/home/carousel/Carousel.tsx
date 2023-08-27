@@ -42,9 +42,7 @@ export default function ImageCarousel({ images }: { images: { url: string; name:
       <div class={styles["items-container"]} style={`--nbitems: ${images.length}; --current-index: ${currentIndex()}`}>
         <For each={images} fallback={<div></div>}>
           {(_, slideIndex) => {
-            return (
-              <div class={styles["carousel-item"]} style={`background-image: url(${images[slideIndex()].url})`}></div>
-            );
+            return <div class={styles["carousel-item"]} style={`background-image: url(${import.meta.env.BASE_URL}${images[slideIndex()].url})`}></div>;
           }}
         </For>
       </div>
@@ -56,8 +54,7 @@ export default function ImageCarousel({ images }: { images: { url: string; name:
               style={{ color: `${currentIndex() === index() ? "#f00" : "#fff"}` }}
               onclick={() => {
                 setIndex(index());
-              }}
-            >
+              }}>
               •
             </div>
           )}
@@ -66,4 +63,3 @@ export default function ImageCarousel({ images }: { images: { url: string; name:
     </div>
   );
 }
-
