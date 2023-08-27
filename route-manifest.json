@@ -2,11 +2,11 @@
   "/activities/(Activities)": [
     {
       "type": "script",
-      "href": "/escadron-website/assets/(Activities)-4089bba4.js"
+      "href": "/escadron-website/assets/(Activities)-dbc2a9b8.js"
     },
     {
       "type": "script",
-      "href": "/escadron-website/assets/entry-client-28e40e78.js"
+      "href": "/escadron-website/assets/entry-client-5dbf75ec.js"
     },
     {
       "type": "style",
@@ -20,11 +20,11 @@
   "/": [
     {
       "type": "script",
-      "href": "/escadron-website/assets/index-877e7ac6.js"
+      "href": "/escadron-website/assets/index-18e66c5d.js"
     },
     {
       "type": "script",
-      "href": "/escadron-website/assets/entry-client-28e40e78.js"
+      "href": "/escadron-website/assets/entry-client-5dbf75ec.js"
     },
     {
       "type": "style",
@@ -38,11 +38,11 @@
   "/inscription/(Inscription)": [
     {
       "type": "script",
-      "href": "/escadron-website/assets/(Inscription)-05258246.js"
+      "href": "/escadron-website/assets/(Inscription)-257efa76.js"
     },
     {
       "type": "script",
-      "href": "/escadron-website/assets/entry-client-28e40e78.js"
+      "href": "/escadron-website/assets/entry-client-5dbf75ec.js"
     },
     {
       "type": "style",
@@ -51,16 +51,20 @@
     {
       "type": "style",
       "href": "/escadron-website/assets/(Inscription)-bb3ea006.css"
+    },
+    {
+      "type": "asset",
+      "href": "/escadron-website/assets/inscription-image-cdffc143.jpeg"
     }
   ],
   "/joinus/(Joinus)": [
     {
       "type": "script",
-      "href": "/escadron-website/assets/(Joinus)-f7584570.js"
+      "href": "/escadron-website/assets/(Joinus)-9844dcd9.js"
     },
     {
       "type": "script",
-      "href": "/escadron-website/assets/entry-client-28e40e78.js"
+      "href": "/escadron-website/assets/entry-client-5dbf75ec.js"
     },
     {
       "type": "style",
@@ -74,7 +78,7 @@
   "entry-client": [
     {
       "type": "script",
-      "href": "/escadron-website/assets/entry-client-28e40e78.js"
+      "href": "/escadron-website/assets/entry-client-5dbf75ec.js"
     },
     {
       "type": "style",

@@ -1,9 +1,21 @@
 {
+  "src/components/footer/_assets/logo-escadron.png": {
+    "file": "assets/logo-escadron-f71e8f9b.png",
+    "src": "src/components/footer/_assets/logo-escadron.png"
+  },
+  "src/components/footer/_assets/logo-maisonneuve.png": {
+    "file": "assets/logo-maisonneuve-8dad0068.png",
+    "src": "src/components/footer/_assets/logo-maisonneuve.png"
+  },
   "src/entry-client.css": {
     "file": "assets/entry-client-e24e65ad.css",
     "src": "src/entry-client.css"
   },
   "src/entry-client.tsx": {
+    "assets": [
+      "assets/logo-escadron-f71e8f9b.png",
+      "assets/logo-maisonneuve-8dad0068.png"
+    ],
     "css": [
       "assets/entry-client-e24e65ad.css"
     ],
@@ -13,7 +25,7 @@
       "src/routes/inscription/(Inscription).tsx",
       "src/routes/joinus/(Joinus).tsx"
     ],
-    "file": "assets/entry-client-28e40e78.js",
+    "file": "assets/entry-client-5dbf75ec.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
@@ -28,7 +40,7 @@
     "dynamicImports": [
       "src/routes/activities/activities.json"
     ],
-    "file": "assets/(Activities)-4089bba4.js",
+    "file": "assets/(Activities)-dbc2a9b8.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -48,7 +60,7 @@
     "css": [
       "assets/index-f7ecbaf3.css"
     ],
-    "file": "assets/index-877e7ac6.js",
+    "file": "assets/index-18e66c5d.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -60,15 +72,22 @@
     "src": "src/routes/inscription/(Inscription).css"
   },
   "src/routes/inscription/(Inscription).tsx": {
+    "assets": [
+      "assets/inscription-image-cdffc143.jpeg"
+    ],
     "css": [
       "assets/(Inscription)-bb3ea006.css"
     ],
-    "file": "assets/(Inscription)-05258246.js",
+    "file": "assets/(Inscription)-257efa76.js",
     "imports": [
       "src/entry-client.tsx"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/inscription/(Inscription).tsx"
+  },
+  "src/routes/inscription/inscription-image.jpeg": {
+    "file": "assets/inscription-image-cdffc143.jpeg",
+    "src": "src/routes/inscription/inscription-image.jpeg"
   },
   "src/routes/joinus/(Joinus).css": {
     "file": "assets/(Joinus)-58588e99.css",
@@ -78,7 +97,7 @@
     "css": [
       "assets/(Joinus)-58588e99.css"
     ],
-    "file": "assets/(Joinus)-f7584570.js",
+    "file": "assets/(Joinus)-9844dcd9.js",
     "imports": [
       "src/entry-client.tsx"
     ],

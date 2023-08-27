@@ -1,151 +1,230 @@
 {
   "\u0000vite/preload-helper": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "node_modules/.pnpm/@solidjs+meta@0.28.2_solid-js@1.7.2/node_modules/@solidjs/meta/dist/index.jsx": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "node_modules/.pnpm/@solidjs+router@0.8.2_solid-js@1.7.2/node_modules/@solidjs/router/dist/components.jsx": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "node_modules/.pnpm/@solidjs+router@0.8.2_solid-js@1.7.2/node_modules/@solidjs/router/dist/integration.js": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "node_modules/.pnpm/@solidjs+router@0.8.2_solid-js@1.7.2/node_modules/@solidjs/router/dist/lifecycle.js": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "node_modules/.pnpm/@solidjs+router@0.8.2_solid-js@1.7.2/node_modules/@solidjs/router/dist/routing.js": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "node_modules/.pnpm/@solidjs+router@0.8.2_solid-js@1.7.2/node_modules/@solidjs/router/dist/utils.js": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "node_modules/.pnpm/solid-js@1.7.2/node_modules/solid-js/dist/solid.js": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "node_modules/.pnpm/solid-js@1.7.2/node_modules/solid-js/web/dist/web.js": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-node_foqfp7sdawfb3nrh5dfjv4blyq/node_modules/solid-start/entry-client/StartClient.tsx": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-node_foqfp7sdawfb3nrh5dfjv4blyq/node_modules/solid-start/entry-client/mount.tsx": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-node_foqfp7sdawfb3nrh5dfjv4blyq/node_modules/solid-start/error-boundary/ErrorBoundary.tsx": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-node_foqfp7sdawfb3nrh5dfjv4blyq/node_modules/solid-start/root/Document.tsx": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-node_foqfp7sdawfb3nrh5dfjv4blyq/node_modules/solid-start/root/FileRoutes.tsx": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-node_foqfp7sdawfb3nrh5dfjv4blyq/node_modules/solid-start/root/Scripts.tsx": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-node_foqfp7sdawfb3nrh5dfjv4blyq/node_modules/solid-start/router.tsx": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-node_foqfp7sdawfb3nrh5dfjv4blyq/node_modules/solid-start/server/ServerContext.tsx": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "node_modules/.pnpm/solid-start@0.2.26_@solidjs+meta@0.28.2_@solidjs+router@0.8.2_solid-js@1.7.2_solid-start-node_foqfp7sdawfb3nrh5dfjv4blyq/node_modules/solid-start/server/types.tsx": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "src/components/footer/Footer.module.css?used": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "src/components/footer/Footer.tsx": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
+  ],
+  "src/components/footer/_assets/facebook.jpeg": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
+  ],
+  "src/components/footer/_assets/logo-escadron.png": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
+  ],
+  "src/components/footer/_assets/logo-maisonneuve.png": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "src/components/header/Header.module.css?used": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "src/components/header/Header.tsx": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "src/components/home/carousel/Carousel.module.css?used": [
-    "/escadron-website/assets/index-877e7ac6.js",
+    "/escadron-website/assets/index-18e66c5d.js",
     "/escadron-website/assets/index-f7ecbaf3.css"
   ],
   "src/components/home/carousel/Carousel.tsx": [
-    "/escadron-website/assets/index-877e7ac6.js",
+    "/escadron-website/assets/index-18e66c5d.js",
     "/escadron-website/assets/index-f7ecbaf3.css"
   ],
   "src/components/home/section-calendar/Calendar.module.css?used": [
-    "/escadron-website/assets/index-877e7ac6.js",
+    "/escadron-website/assets/index-18e66c5d.js",
     "/escadron-website/assets/index-f7ecbaf3.css"
   ],
   "src/components/home/section-calendar/Calendar.tsx": [
-    "/escadron-website/assets/index-877e7ac6.js",
+    "/escadron-website/assets/index-18e66c5d.js",
     "/escadron-website/assets/index-f7ecbaf3.css"
   ],
   "src/components/home/section-carousel/CarouselSection.module.css?used": [
-    "/escadron-website/assets/index-877e7ac6.js",
+    "/escadron-website/assets/index-18e66c5d.js",
     "/escadron-website/assets/index-f7ecbaf3.css"
   ],
   "src/components/home/section-carousel/CarouselSection.tsx": [
-    "/escadron-website/assets/index-877e7ac6.js",
+    "/escadron-website/assets/index-18e66c5d.js",
     "/escadron-website/assets/index-f7ecbaf3.css"
   ],
   "src/components/home/section-description/Description.module.css?used": [
-    "/escadron-website/assets/index-877e7ac6.js",
+    "/escadron-website/assets/index-18e66c5d.js",
     "/escadron-website/assets/index-f7ecbaf3.css"
   ],
   "src/components/home/section-description/Description.tsx": [
-    "/escadron-website/assets/index-877e7ac6.js",
+    "/escadron-website/assets/index-18e66c5d.js",
     "/escadron-website/assets/index-f7ecbaf3.css"
   ],
   "src/components/home/section-moreinfo/MoreInfo.module.css?used": [
-    "/escadron-website/assets/index-877e7ac6.js",
+    "/escadron-website/assets/index-18e66c5d.js",
     "/escadron-website/assets/index-f7ecbaf3.css"
   ],
   "src/components/home/section-moreinfo/MoreInfo.tsx": [
-    "/escadron-website/assets/index-877e7ac6.js",
+    "/escadron-website/assets/index-18e66c5d.js",
     "/escadron-website/assets/index-f7ecbaf3.css"
   ],
   "src/components/inscription/for-cadets/ForCadets.module.css?used": [
-    "/escadron-website/assets/(Inscription)-05258246.js",
-    "/escadron-website/assets/(Inscription)-bb3ea006.css"
+    "/escadron-website/assets/(Inscription)-257efa76.js",
+    "/escadron-website/assets/(Inscription)-bb3ea006.css",
+    "/escadron-website/assets/inscription-image-cdffc143.jpeg"
   ],
   "src/components/inscription/for-cadets/ForCadets.tsx": [
-    "/escadron-website/assets/(Inscription)-05258246.js",
-    "/escadron-website/assets/(Inscription)-bb3ea006.css"
+    "/escadron-website/assets/(Inscription)-257efa76.js",
+    "/escadron-website/assets/(Inscription)-bb3ea006.css",
+    "/escadron-website/assets/inscription-image-cdffc143.jpeg"
   ],
   "src/components/inscription/for-volunteers/ForVolunteers.module.css?used": [
-    "/escadron-website/assets/(Inscription)-05258246.js",
-    "/escadron-website/assets/(Inscription)-bb3ea006.css"
+    "/escadron-website/assets/(Inscription)-257efa76.js",
+    "/escadron-website/assets/(Inscription)-bb3ea006.css",
+    "/escadron-website/assets/inscription-image-cdffc143.jpeg"
   ],
   "src/components/inscription/for-volunteers/ForVolunteers.tsx": [
-    "/escadron-website/assets/(Inscription)-05258246.js",
-    "/escadron-website/assets/(Inscription)-bb3ea006.css"
+    "/escadron-website/assets/(Inscription)-257efa76.js",
+    "/escadron-website/assets/(Inscription)-bb3ea006.css",
+    "/escadron-website/assets/inscription-image-cdffc143.jpeg"
   ],
   "src/components/inscription/goals/Goals.module.css?used": [
-    "/escadron-website/assets/(Inscription)-05258246.js",
-    "/escadron-website/assets/(Inscription)-bb3ea006.css"
+    "/escadron-website/assets/(Inscription)-257efa76.js",
+    "/escadron-website/assets/(Inscription)-bb3ea006.css",
+    "/escadron-website/assets/inscription-image-cdffc143.jpeg"
   ],
   "src/components/inscription/goals/Goals.tsx": [
-    "/escadron-website/assets/(Inscription)-05258246.js",
-    "/escadron-website/assets/(Inscription)-bb3ea006.css"
+    "/escadron-website/assets/(Inscription)-257efa76.js",
+    "/escadron-website/assets/(Inscription)-bb3ea006.css",
+    "/escadron-website/assets/inscription-image-cdffc143.jpeg"
   ],
   "src/components/layout/Layout.tsx": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "src/components/layout/layout.module.css?used": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "src/entry-client.tsx": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "src/root.css": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "src/root.tsx": [
+    "/escadron-website/assets/logo-escadron-f71e8f9b.png",
+    "/escadron-website/assets/logo-maisonneuve-8dad0068.png"
   ],
   "src/routes/activities/(Activities).tsx": [
-    "/escadron-website/assets/(Activities)-4089bba4.js",
+    "/escadron-website/assets/(Activities)-dbc2a9b8.js",
     "/escadron-website/assets/(Activities)-3835397c.css"
   ],
   "src/routes/activities/Activities.module.css?used": [
-    "/escadron-website/assets/(Activities)-4089bba4.js",
+    "/escadron-website/assets/(Activities)-dbc2a9b8.js",
     "/escadron-website/assets/(Activities)-3835397c.css"
   ],
   "src/routes/activities/activities.json": [
     "/escadron-website/assets/activities-8f7020a3.js"
   ],
   "src/routes/index.tsx": [
-    "/escadron-website/assets/index-877e7ac6.js",
+    "/escadron-website/assets/index-18e66c5d.js",
     "/escadron-website/assets/index-f7ecbaf3.css"
   ],
   "src/routes/inscription/(Inscription).tsx": [
-    "/escadron-website/assets/(Inscription)-05258246.js",
-    "/escadron-website/assets/(Inscription)-bb3ea006.css"
+    "/escadron-website/assets/(Inscription)-257efa76.js",
+    "/escadron-website/assets/(Inscription)-bb3ea006.css",
+    "/escadron-website/assets/inscription-image-cdffc143.jpeg"
   ],
   "src/routes/inscription/Inscription.module.css?used": [
-    "/escadron-website/assets/(Inscription)-05258246.js",
-    "/escadron-website/assets/(Inscription)-bb3ea006.css"
+    "/escadron-website/assets/(Inscription)-257efa76.js",
+    "/escadron-website/assets/(Inscription)-bb3ea006.css",
+    "/escadron-website/assets/inscription-image-cdffc143.jpeg"
+  ],
+  "src/routes/inscription/inscription-image.jpeg": [
+    "/escadron-website/assets/(Inscription)-257efa76.js",
+    "/escadron-website/assets/(Inscription)-bb3ea006.css",
+    "/escadron-website/assets/inscription-image-cdffc143.jpeg"
   ],
   "src/routes/joinus/(Joinus).tsx": [
-    "/escadron-website/assets/(Joinus)-f7584570.js",
+    "/escadron-website/assets/(Joinus)-9844dcd9.js",
     "/escadron-website/assets/(Joinus)-58588e99.css"
   ],
   "src/routes/joinus/Joinus.module.css?used": [
-    "/escadron-website/assets/(Joinus)-f7584570.js",
+    "/escadron-website/assets/(Joinus)-9844dcd9.js",
     "/escadron-website/assets/(Joinus)-58588e99.css"
   ]
 }
